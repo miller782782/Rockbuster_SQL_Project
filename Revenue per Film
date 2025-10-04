@@ -1,0 +1,17 @@
+
+
+SELECT 
+    B.film_id,
+    B.title,
+    SUM(D.amount) AS total_revenue,
+    COUNT(D.rental_id) AS total_rentals,
+    AVG(D.amount) AS avg_revenue_per_rental,
+
+FROM inventory A
+INNER JOIN film B ON A.film_id = B.film_id
+INNER JOIN film_category E ON B.film_id = E.film_id
+INNER JOIN category F ON E.category_id = F.category_id
+INNER JOIN rental C ON A.inventory_id = C.inventory_id
+INNER JOIN payment D ON C.rental_id = D.rental_id
+GROUP BY B.film_id, B.title, F.name
+ORDER BY total_revenue DESC;
