@@ -3,3 +3,4 @@ The work here is for Achievement 3 of CareerFoundry's Data Analyst course.  This
 
 The project required me to use SQL to analyse the data in Rockbuster's relational database management system to answer business questions that the company had.
 
+[A3_Data_Project_Brief .pdf](https://github.com/user-attachments/files/22686092/A3_Data_Project_Brief.pdf)
