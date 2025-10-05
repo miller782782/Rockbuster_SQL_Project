@@ -13,7 +13,7 @@ The project required me to use SQL to analyse the data in Rockbuster's relationa
 ### Data
 
 The data was from Rockbuster's relational database which can be found [here](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip).
-
+The data dictionary including ERD is included in the files.
 
 ### Tools
 
